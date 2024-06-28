@@ -1,0 +1,69 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #0f0; /* Light green */
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222; /* Darker background */
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3); /* Green glow */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 3px #0f0; /* Green text shadow */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* White text */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Darker input background */
+    color: #fff; /* White text */
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Media queries for responsive design */
+
+@media only screen and (max-width: 768px) {
+    .login-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}

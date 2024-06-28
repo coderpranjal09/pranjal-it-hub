@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dde7ac;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.job-description {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.job-description h3 {
+    margin-bottom: 10px;
+}
+
+.job-description ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.job-description li {
+    margin-bottom: 5px;
+}
+
+.apply-btn {
+    background-color: #2be2ef; /* Green */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: rgb(65, 136, 243) solid;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1.3rem;
+    
+}
+.apply-btn:hover{border: 3px rgb(157, 19, 175) solid; color: rgb(188, 18, 18); }
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Media queries for responsive design */
+
+.qqww{ border: 4px black solid; padding-left: 12px; border-radius: 5px; padding-right: 12px;}
+ul,li,p{ font-size: 1.1rem;}
+h3{ font-size: 1.8rem; background-color: #75ea79; width: 35%; text-align: center; 
+border: black 2px solid; border-radius: 5px;}
+@media only screen and (max-width: 768px){
+    h3{ font-size: 1.2rem; background-color: #75ea79; width: 35%; text-align: center;} 
+}
+ @media only screen and (max-width:480px){
+    h3{ font-size: 0.9rem; background-color: #75ea79; width: 35%; text-align: center;} 
+
+ }
+    

@@ -1,0 +1,131 @@
+body {display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: rgb(38, 65, 237);
+font-size: 2rem;   text-align: center; 
+
+}
+h2{
+font-size: 1rem; font-family: Verdana, Geneva, Tahoma, sans-serif; color: red;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing:border-box ;
+
+}
+.qr-code {
+    text-align: center;
+    margin: 20px 0;
+}
+.qr-code img {
+    max-width: 100%;
+}
+.preview {
+    display: none;
+}
+.preview table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.preview table, .preview th, .preview td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.preview th {
+    background-color: #f2f2f2;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+.btn{width: 100%;}
+*{ font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#timer{ color: red; text-align: center;}
+.btn{ font-size: 20px;}
+/* Base font size for larger screens */
+table {
+    font-size: 16px;
+}
+
+/* For screens smaller than 1200px */
+@media (max-width: 1200px) {
+    table {
+        font-size: 15px;
+    }
+}
+
+/* For screens smaller than 992px */
+@media (max-width: 992px) {
+    table {
+        font-size: 14px;
+    }
+   
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    table {
+        font-size: 13px;
+    }
+    
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+    table {
+        font-size: 12px;
+    }
+}
+
+/* For screens smaller than 400px */
+@media (max-width: 400px) {
+    table {
+        font-size: 11px;
+    }
+}
+/* Default styling for all devices */
+
+label{ font-size: 1.4rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+    }
+}
