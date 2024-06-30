@@ -119,7 +119,7 @@ table {
 }
 /* Default styling for all devices */
 
-label{ font-size: 1.4rem;
+label{ font-size: 1rem;
     margin-bottom: 5px;
     font-weight: bold;
     color: #555;
